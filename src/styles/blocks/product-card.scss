@@ -9,6 +9,11 @@
     width: 160px;
     height: 134px;
     margin: 0 auto;
+    transition: transform 400ms;
+  }
+
+  &__img:hover {
+    transform: scale(1.2);
   }
 
   &__title {
@@ -70,6 +75,7 @@
     font-weight: 700;
     line-height: 40px;
     border: 1px solid $main-color;
+    transition: color, background-color 400ms;
   }
 
   &__link:hover {
