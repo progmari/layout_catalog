@@ -2,14 +2,13 @@
   width: 100%;
 
   &__container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
     max-width: 944px;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    gap: 50px 48px;
+    padding-top: 50px;
     margin: 0 auto;
   }
 
-  &__card {
-    margin-top: 50px;
-  }
 }
